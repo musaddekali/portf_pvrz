@@ -19,8 +19,8 @@
     @apply px-3 py-1 rounded-full text-xs font-medium bg-primary text-white leading-tight inline-flex items-center;
   }
 
-  .exprnc_card {
-    @apply  p-6 backdrop-blur rounded-md border border-transparent transition duration-150 hover:bg-sky-300/5 hover:border-sky-200/40;
+  .card_primary {
+    @apply realtive p-4 md:p-6 backdrop-blur rounded-md border border-transparent transition duration-150 hover:bg-sky-300/5 hover:border-sky-200/40;
   }
 
 }
