@@ -20,7 +20,7 @@
   }
 
   .card_primary {
-    @apply realtive p-4 md:p-6 backdrop-blur rounded-md border border-transparent transition duration-150 hover:bg-sky-300/5 hover:border-sky-200/40;
+    @apply relative p-4 md:p-6 backdrop-blur rounded-md border border-transparent transition duration-150 hover:bg-sky-300/5 hover:border-sky-200/40;
   }
 
 }

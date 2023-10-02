@@ -15,7 +15,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        Creattion: ["Creattion"],
+        Charm : ["Charm"]
       },
       colors: {
         primary: "#418ec6",
