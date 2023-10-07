@@ -14,13 +14,11 @@ module.exports = {
       padding: ".75rem",
     },
     extend: {
-      fontFamily: {
-        Charm : ["Charm"]
-      },
       colors: {
         primary: "#418ec6",
         secondary: "#1e2762",
         accent: "#7b2049",
+        bodyBg : "#421301",
       },
     },
   },
