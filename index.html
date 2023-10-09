@@ -46,7 +46,7 @@
               class="flex flex-col items-center text-center md:block md:text-left"
             >
               <div
-                class="profile_area bg-white/5 md:mr-10 p-8 rounded-2xl border border-slate-300/10 backdrop-blur shadow-md flex flex-col items-center text-center md:block md:text-left"
+                class="profile_area flex flex-col items-center text-center md:block md:text-left"
               >
                 <!-- Profile Image  -->
                 <div
@@ -75,6 +75,32 @@
                   for the web.
                 </p>
               </div>
+            </div>
+
+            <div>
+              <!-- Newsletter -->
+              <!-- <div class="newsletter mt-4">
+                <h4
+                  class="text-lg font-bold text-slate-200 mb-2 text-center md:text-left"
+                >
+                  Newsletter
+                </h4>
+                <div class="relative max-w-[400px] mx-auto md:mx-0">
+                  <input
+                    class="w-full text-slate-700 border hover:border-primary/50 focus:border-primary focus:outline-none px-6 pr-12 py-3 leading-tight rounded-full transition"
+                    type="email"
+                    placeholder="Email"
+                  />
+                  <button
+                    title="Send"
+                    class="bg-primary/95 hover:bg-primary text-white leading-tight rounded-tr-full rounded-br-full w-[38px] h-[38px] flex items-center justify-center absolute right-1 top-1/2 -translate-y-1/2"
+                    type="submit"
+                  >
+                    <i class="fas fa-paper-plane"></i>
+                  </button>
+                </div>
+              </div> -->
+              <!-- menus  -->
               <nav class="nav hidden lg:block" aria-label="In-page jump links">
                 <ul class="mt-12 w-max">
                   <li>
@@ -111,17 +137,6 @@
                     >
                   </li>
                   <li>
-                    <a class="group flex items-center py-3" href="#services"
-                      ><span
-                        class="nav-indicator mr-4 h-px w-8 bg-slate-300 transition-all group-hover:w-16 group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-100 motion-reduce:transition-none"
-                      ></span
-                      ><span
-                        class="nav-text text-xs font-bold uppercase tracking-widest text-slate-300 group-hover:text-slate-100 group-focus-visible:text-slate-100"
-                        >Services</span
-                      ></a
-                    >
-                  </li>
-                  <li>
                     <a class="group flex items-center py-3" href="#contact"
                       ><span
                         class="nav-indicator mr-4 h-px w-8 bg-slate-300 transition-all group-hover:w-16 group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-100 motion-reduce:transition-none"
@@ -134,31 +149,6 @@
                   </li>
                 </ul>
               </nav>
-            </div>
-
-            <div>
-              <!-- Newsletter -->
-              <div class="newsletter mt-4">
-                <h4
-                  class="text-lg font-bold text-slate-200 mb-2 text-center md:text-left"
-                >
-                  Newsletter
-                </h4>
-                <div class="relative max-w-[400px] mx-auto md:mx-0">
-                  <input
-                    class="w-full text-slate-700 border hover:border-primary/50 focus:border-primary focus:outline-none px-6 pr-12 py-3 leading-tight rounded-full transition"
-                    type="email"
-                    placeholder="Email"
-                  />
-                  <button
-                    title="Send"
-                    class="bg-primary/95 hover:bg-primary text-white leading-tight rounded-tr-full rounded-br-full w-[38px] h-[38px] flex items-center justify-center absolute right-1 top-1/2 -translate-y-1/2"
-                    type="submit"
-                  >
-                    <i class="fas fa-paper-plane"></i>
-                  </button>
-                </div>
-              </div>
               <!-- Socials -->
               <ul
                 class="mt-8 flex items-center gap-5 justify-center md:justify-start"
@@ -263,14 +253,20 @@
               class="scroll-mt-16 lg:scroll-mt-16 mb-16"
             >
               <div
-                class="sticky top-0 z-20 mb-4 -mx-4 lg:mx-0 bg-sky-100/25 px-5 py-4 backdrop-blur flex items-center justify-between"
+                class="sticky top-0 z-20 mb-4 py-4 flex items-center justify-between bg-bodyBg/25 backdrop-blur"
                 aria-label="Section title"
               >
-                <h2 class="text-sm font-bold uppercase tracking-widest">
+                <h2
+                  class="text-sm font-bold uppercase tracking-widest relative flex gap-6 items-center"
+                >
+                  <span
+                    class="title_side w-[3px] h-5 bg-primary inline-block rounded-full"
+                  ></span>
                   About
                 </h2>
               </div>
-              <div>
+
+              <div class="card_primary">
                 <p class="mb-4">
                   Back in 2012, I decided to try my hand at creating custom
                   Tumblr themes and tumbled head first into the rabbit hole of
@@ -298,10 +294,15 @@
               class="scroll-mt-16 lg:scroll-mt-16 mb-16"
             >
               <div
-                class="sticky top-0 z-20 -mx-4 lg:mx-0 mb-4 bg-sky-100/25 px-5 py-4 backdrop-blur flex items-center justify-between"
+                class="sticky top-0 z-20 mb-4 py-4 flex items-center justify-between bg-bodyBg/25 backdrop-blur"
                 aria-label="Section title"
               >
-                <h2 class="text-sm font-bold uppercase tracking-widest">
+                <h2
+                  class="text-sm font-bold uppercase tracking-widest relative flex gap-6 items-center"
+                >
+                  <span
+                    class="title_side w-[3px] h-5 bg-primary inline-block rounded-full"
+                  ></span>
                   Experience
                 </h2>
               </div>
@@ -375,10 +376,15 @@
               class="scroll-mt-16 lg:scroll-mt-16 mb-16"
             >
               <div
-                class="h-14 overflow-hidden sticky top-0 -mx-4 lg:mx-0 z-20 mb-4 bg-sky-100/25 px-5 py-4 backdrop-blur flex items-center justify-between"
+                class="sticky top-0 z-20 mb-4 py-4 flex items-center justify-between bg-bodyBg/25 backdrop-blur"
                 aria-label="Section title"
               >
-                <h2 class="text-sm font-bold uppercase tracking-widest">
+                <h2
+                  class="text-sm font-bold uppercase tracking-widest relative flex gap-6 items-center"
+                >
+                  <span
+                    class="title_side w-[3px] h-5 bg-primary inline-block rounded-full"
+                  ></span>
                   Works
                 </h2>
                 <button class="title_btn group">
@@ -404,16 +410,16 @@
                   </svg>
                 </button>
               </div>
-              <ul aria-label="Product list" class="flex flex-col gap-8">
+              <ul aria-label="Product list" class="flex flex-col gap-6">
                 <li>
                   <div class="card_primary">
                     <div
-                      class="group grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50"
+                      class="grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4"
                     >
                       <img
                         alt=""
                         width="200"
-                        class="rounded border-2 border-primary/30 transition group-hover:border-primary w-full md:mx-w-[200px] sm:col-span-2 sm:translate-y-1"
+                        class="rounded w-full md:mx-w-[200px] sm:col-span-2 sm:translate-y-1"
                         src="./assets/images/project-1.png"
                       />
                       <div class="z-10 sm:col-span-6">
@@ -425,9 +431,6 @@
                             rel="noreferrer"
                             aria-label="Build a Spotify Connected App"
                           >
-                            <span
-                              class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
-                            ></span>
                             <span>
                               Build a Spotify Connected
                               <span class="inline-block"
@@ -489,12 +492,12 @@
                 <li>
                   <div class="card_primary">
                     <div
-                      class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50"
+                      class="grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4"
                     >
                       <img
                         alt=""
                         width="200"
-                        class="rounded border-2 border-primary/30 transition group-hover:border-primary w-full md:mx-w-[200px] sm:col-span-2 sm:translate-y-1"
+                        class="rounded w-full md:mx-w-[200px] sm:col-span-2 sm:translate-y-1"
                         src="./assets/images/project-2.png"
                       />
                       <div class="z-10 sm:col-span-6">
@@ -506,11 +509,8 @@
                             rel="noreferrer"
                             aria-label="Build a Spotify Connected App"
                           >
-                            <span
-                              class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
-                            ></span>
                             <span>
-                              Spotify Profile
+                              Build a Spotify Connected
                               <span class="inline-block"
                                 >App<svg
                                   xmlns="http://www.w3.org/2000/svg"
@@ -523,9 +523,8 @@
                                     fill-rule="evenodd"
                                     d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
                                     clip-rule="evenodd"
-                                  ></path></svg></span
-                            ></span>
-                          </a>
+                                  ></path></svg></span></span
+                          ></a>
                         </h3>
                         <p class="mt-2 text-sm leading-normal">
                           Video course that teaches how to build a web app with
@@ -539,21 +538,20 @@
                           target="_blank"
                           rel="noreferrer"
                           aria-label="Over 100,000 installs on Visual Studio Code Marketplace"
-                        >
-                          <svg
+                          ><svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
                             fill="currentColor"
-                            class="mr-1 h-3 w-3"
+                            class="mr-1 h-4 w-4"
                             aria-hidden="true"
                           >
                             <path
-                              fill-rule="evenodd"
-                              d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
-                              clip-rule="evenodd"
+                              d="M10.75 2.75a.75.75 0 00-1.5 0v8.614L6.295 8.235a.75.75 0 10-1.09 1.03l4.25 4.5a.75.75 0 001.09 0l4.25-4.5a.75.75 0 00-1.09-1.03l-2.955 3.129V2.75z"
                             ></path>
-                          </svg>
-                          <span>6,750</span></a
+                            <path
+                              d="M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z"
+                            ></path></svg
+                          ><span>100k+ Installs</span></a
                         >
                         <ol
                           aria-label="Technology used"
