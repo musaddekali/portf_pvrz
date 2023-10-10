@@ -21,13 +21,8 @@
       href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <!-- animate css  -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
     <!-- Custom styles  -->
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
 
   <body
@@ -50,7 +45,7 @@
               >
                 <!-- Profile Image  -->
                 <div
-                  class="w-36 h-36 overflow-hidden rounded-full mb-6 ring ring-slate-200/50 animate__animated animate__fadeInDown"
+                  class="w-36 h-36 overflow-hidden rounded-full mb-6 ring ring-slate-200/50"
                 >
                   <img
                     class="w-full h-full object-cover"
@@ -59,7 +54,7 @@
                   />
                 </div>
                 <h1
-                  class="text-4xl sm:text-5xl xl:text-5xl font-bold italic tracking-tight animate__animated animate__flipInX animate__delay-1s"
+                  class="text-4xl sm:text-5xl xl:text-5xl font-bold italic tracking-tight"
                 >
                   Pervez Ali
                 </h1>
@@ -104,12 +99,14 @@
               <nav class="nav hidden lg:block" aria-label="In-page jump links">
                 <ul class="mt-12 w-max">
                   <li>
-                    <a class="group flex items-center py-3" href="#about"
+                    <a
+                      class="group flex items-center py-3 nav_link_active"
+                      href="#about"
                       ><span
-                        class="nav-indicator mr-4 h-px w-8 bg-slate-300 transition-all group-hover:w-16 group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-100 motion-reduce:transition-none"
+                        class="nav_indicator mr-4 h-px w-8 bg-slate-300 transition-all group-hover:w-16 group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-100 motion-reduce:transition-none"
                       ></span
                       ><span
-                        class="nav-text text-xs font-bold uppercase tracking-widest text-slate-300 group-hover:text-slate-100 group-focus-visible:text-slate-100"
+                        class="nav_text text-xs font-bold uppercase tracking-widest text-slate-300 group-hover:text-slate-100 group-focus-visible:text-slate-100"
                         >About</span
                       ></a
                     >
@@ -117,10 +114,10 @@
                   <li>
                     <a class="group flex items-center py-3" href="#experience"
                       ><span
-                        class="nav-indicator mr-4 h-px w-8 bg-slate-300 transition-all group-hover:w-16 group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-100 motion-reduce:transition-none"
+                        class="nav_indicator mr-4 h-px w-8 bg-slate-300 transition-all group-hover:w-16 group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-100 motion-reduce:transition-none"
                       ></span
                       ><span
-                        class="nav-text text-xs font-bold uppercase tracking-widest text-slate-300 group-hover:text-slate-100 group-focus-visible:text-slate-100"
+                        class="nav_text text-xs font-bold uppercase tracking-widest text-slate-300 group-hover:text-slate-100 group-focus-visible:text-slate-100"
                         >Experience</span
                       ></a
                     >
@@ -128,10 +125,10 @@
                   <li>
                     <a class="group flex items-center py-3" href="#works"
                       ><span
-                        class="nav-indicator mr-4 h-px w-8 bg-slate-300 transition-all group-hover:w-16 group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-100 motion-reduce:transition-none"
+                        class="nav_indicator mr-4 h-px w-8 bg-slate-300 transition-all group-hover:w-16 group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-100 motion-reduce:transition-none"
                       ></span
                       ><span
-                        class="nav-text text-xs font-bold uppercase tracking-widest text-slate-300 group-hover:text-slate-100 group-focus-visible:text-slate-100"
+                        class="nav_text text-xs font-bold uppercase tracking-widest text-slate-300 group-hover:text-slate-100 group-focus-visible:text-slate-100"
                         >Works</span
                       ></a
                     >
@@ -139,10 +136,10 @@
                   <li>
                     <a class="group flex items-center py-3" href="#contact"
                       ><span
-                        class="nav-indicator mr-4 h-px w-8 bg-slate-300 transition-all group-hover:w-16 group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-100 motion-reduce:transition-none"
+                        class="nav_indicator mr-4 h-px w-8 bg-slate-300 transition-all group-hover:w-16 group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-100 motion-reduce:transition-none"
                       ></span
                       ><span
-                        class="nav-text text-xs font-bold uppercase tracking-widest text-slate-300 group-hover:text-slate-100 group-focus-visible:text-slate-100"
+                        class="nav_text text-xs font-bold uppercase tracking-widest text-slate-300 group-hover:text-slate-100 group-focus-visible:text-slate-100"
                         >Contact</span
                       ></a
                     >
@@ -573,5 +570,7 @@
         </div>
       </div>
     </div>
+    <!-- custom js  -->
+    <script src="./assets/js/app.js"></script>
   </body>
 </html>
