@@ -19,11 +19,11 @@
   }
 
   .card_primary {
-    @apply bg-white/5 p-8 rounded-2xl border border-slate-300/10 backdrop-blur shadow-md;
+    @apply bg-white/5 p-5 md:p-8 rounded-2xl border border-slate-300/10 backdrop-blur shadow-md;
   }
 
   .nav_link_active .nav_indicator {
-    @apply w-16 bg-slate-100;
+    @apply w-16 bg-primary;
   }
   .nav_link_active .nav_text {
     @apply text-slate-100;
