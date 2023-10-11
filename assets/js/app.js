@@ -1,7 +1,6 @@
 // simple function to use for callback in the intersection observer
 const changeNav = (entries) => {
-  entries.forEach((entry, i) => {
-    window.addEventListener('scroll', () => console.log(i, entry.target.getAttribute("id"), entry.intersectionRatio))
+  entries.forEach((entry) => {
     // verify the element is intersecting
     if (entry.isIntersecting && entry.intersectionRatio >= .55) {
       // remove old active class
