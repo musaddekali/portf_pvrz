@@ -4,8 +4,11 @@
 
 @layer base {
   html {
-    font-family: "Inter", sans-serif;
     scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-inter leading-relaxed;
   }
 }
 
@@ -27,5 +30,17 @@
   }
   .nav_link_active .nav_text {
     @apply text-slate-100;
+  }
+  .product_details_content > p + p {
+    @apply mt-3;
+  }
+
+  .product_details_content h1,
+  .product_details_content h2,
+  .product_details_content h3 {
+    @apply text-xl lg:text-2xl font-medium mt-4 mb-2;
+  }
+  .product_details_content img {
+    @apply max-w-full h-auto my-3 rounded block;
   }
 }
