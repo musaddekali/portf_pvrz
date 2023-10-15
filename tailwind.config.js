@@ -20,6 +20,9 @@ module.exports = {
         accent: "#7b2049",
         bodyBg : "#421301",
       },
+      fontFamily: {
+        inter : ["Inter", "sans-serif"]
+      }
     },
   },
   plugins: [],
